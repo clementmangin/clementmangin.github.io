@@ -108,16 +108,20 @@
 				method: 'POST',
 				dataType: 'json',
 				accepts: 'application/json',
+				beforeSend: (xhr, settings) => {
+					submit.prop('disabled', true);
+				},
 				success: (data) => {
-					submit.prop('value', 'Send Message');
+					submit.prop('value', 'Merci pour votre message!');
 				},
     	  error: (err) => {
 					console.log(err);
 					(function x(duration) {
 						if (duration == 0) {
-							submit.prop('value', 'Send Message');
+							submit.prop('value', 'Envoyer');
+							submit.prop('disabled', false);
 						} else {
-							submit.prop('value', `Error! Retry in ${duration}s`);
+							submit.prop('value', `Échec! Réssayez dans ${duration}s`);
 							setTimeout(() => {
 								x(duration - 1);
 							}, 1000);
