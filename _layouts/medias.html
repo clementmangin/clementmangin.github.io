@@ -51,7 +51,7 @@
               <p>{% if media.publisher %}<span>{{ media.publisher }}</span> – {% endif %}<span></span>{{ media.date | date: "%-d %B %Y" }}</span></p>
 
               <ul class="actions">
-                <li><a href="{{ media.link }}" target="_new" class="button next">{% if media.categories contains 'podcast' %}Écouter{% else %}Lire{% endif %}</a></li>
+                <li><a href="{{ media.link }}" target="_blank" class="button next">{% if media.categories contains 'podcast' %}Écouter{% else %}Lire{% endif %}</a></li>
               </ul>
             </div>
           </div>
