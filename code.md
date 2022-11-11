@@ -23,7 +23,7 @@ nav-menu: true
 <div class="content">
 		<p>CV complet à venir!</p>
 		<ul class="actions">
-				<li><a href="{{ site.socials.LinkedIn }}" class="button next scrolly">Voir sur LinkedIn</a></li>
+				<li><a href="{{ site.socials.LinkedIn }}" class="button next scrolly">Voir mon profil sur LinkedIn</a></li>
 		</ul>
 </div>
 

@@ -64,3 +64,8 @@ socials:
   Google-Plus: 
   Instagram:
   Slack:
+
+collections:
+  medias:
+    output: false
+
