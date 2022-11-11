@@ -34,16 +34,19 @@
         {% include tiles.html %}
 
         <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>À propos</h2>
-                </header>
-                <p>{{ content }}</p>
-                <!-- <ul class="actions">
-                    <li><a href="landing.html" class="button next">Démarrer</a></li>
-                </ul> -->
-            </div>
+        <section id="two" class="spotlights">
+            <section>
+                <a href="#" class="image">
+                    <img src="{% link assets/images/profil.jpg %}" alt="" data-position="center center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                    <header class="major">
+                        <h2>À propos</h2>
+                    </header>
+                    <p>{{ content }}</p>
+                </div>
+            </section>
         </section>
 
     </div>
