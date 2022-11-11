@@ -3,7 +3,7 @@ layout: medias
 title: Médias
 landing-title: 'Médias'
 nav-menu: true
-description: Réflexions, analyses, regards sur l'actualité internationale et les enjeux sociaux et environnementaux contemporains, dans une perspective philosophique et politique.
+description: Réflexions, analyses, regards sur l'actualité internationale et les enjeux sociaux et environnementaux contemporains
 image: assets/images/pic11.jpg
 author: null
 show_tile: true

@@ -1,23 +1,13 @@
 ---
 title: Recherche
 layout: publications
-description: J'écris sur les enjeux sociaux et environnementaux contemporains à l'ère de la post-vérité
+description: Post-vérité, polarisation et désinformation, et à l'intersection de l'épistémologie et de l'idéologie
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
 <!-- Main -->
 <div id="main">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Articles scientifiques</h2>
-		</header>
-		<p>Articles publiés et à soumettre, écrits dans le cadre de ma maîtrise de recherche en sciences de l'environnement à l'Université du Québec à Montréal.</p>
-	</div>
-</section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
