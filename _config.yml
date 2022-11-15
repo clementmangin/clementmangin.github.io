@@ -22,9 +22,9 @@ title: Clément Mangin
 email: clement.mangin@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenue sur ma page personnelle. Explorez ses différentes facettes et faisons connaissance.
-domain: clementmangin.github.io
+domain: www.clementmangin.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://clementmangin.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.clementmangin.com # the base hostname & protocol for your site, e.g. http://example.com
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
