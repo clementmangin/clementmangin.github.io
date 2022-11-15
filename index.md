@@ -1,11 +1,15 @@
 ---
 layout: home
 title: Accueil
-landing-title: 'Bonjour, mon nom est Clément'
+landing-title: 'Bonjour, ici Clément'
 description: null
 image: null
 author: null
 show_tile: false
 ---
 
-Animé par une curiosité intellectuelle insatiable, je suis passé de l'ingénierie informatique aux sciences de l'environnement après un détour par la science politique et la philosophie. Profondément inquiet de l'ascension du populisme réactionnaire et de notre incapacité collective à affronter les risques d'effondrement écosystémique et sociétal, j'étudie les conditions de possibilité d'une restauration d'un rapport éthique et épistémique sain à notre monde.
+Animé par une curiosité intellectuelle insatiable, je m'intéresse aux enjeux sociaux et environnementaux contemporains au carrefour de la science, de la société et du politique. 
+
+Je crois aux rôles déterminants de la vulgarisation scientifique et du décryptage de la désinformation, dans un contexte de post-vérité fragilisant nos démocraties et favorisant l'ascension du populisme réactionnaire et de la violence politique.
+
+Après une carrière en ingénierie informatique, suivie d'un retour aux études en science politique et philosophie puis en sciences de l'environnement, j'entends mettre ma plume au service d'une information de qualité dans le monde médiatique.

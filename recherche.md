@@ -1,7 +1,7 @@
 ---
 title: Recherche
 layout: publications
-description: Post-vérité, polarisation et désinformation, et à l'intersection de l'épistémologie et de l'idéologie
+description: Sciences politiques, cognitives et sociales au service de la compréhension de la post-vérité, la polarisation et la désinformation
 image: assets/images/research.jpg
 nav-menu: true
 ---
