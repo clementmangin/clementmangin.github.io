@@ -108,6 +108,7 @@
 				method: 'POST',
 				dataType: 'json',
 				accepts: 'application/json',
+				data: formData,
 				beforeSend: (xhr, settings) => {
 					submit.prop('disabled', true);
 				},
