@@ -5,5 +5,5 @@ description: La recrudescence d’actes terroristes perpétrés par des blancs c
 link: https://medium.com/caium/la-fin-de-loccident-413b4c2b6895
 picture: assets/images/occident.jpg
 categories: blog
-publisher: CAIUM
+publisher: La REVUE du CAIUM
 ---

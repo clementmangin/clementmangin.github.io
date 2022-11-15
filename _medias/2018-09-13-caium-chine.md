@@ -5,5 +5,5 @@ description: Sa prise de conscience environnementale et sa transformation indust
 link: https://medium.com/caium/la-chine-nouveau-leader-de-la-lutte-contre-les-changements-climatiques-a4ffeceb05c
 picture: assets/images/chine.jpg
 categories: blog
-publisher: CAIUM
+publisher: La REVUE du CAIUM
 ---

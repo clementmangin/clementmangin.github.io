@@ -5,5 +5,5 @@ description:
 link: https://medium.com/caium/les-gilets-jaunes-un-mouvement-loin-de-sessouffler-12de44bb4195
 picture: assets/images/giletsjaunes.jpg
 categories: blog
-publisher: CAIUM
+publisher: La REVUE du CAIUM
 ---

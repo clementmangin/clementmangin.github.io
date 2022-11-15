@@ -5,5 +5,5 @@ description: La crise environnementale nécessite des politiques publiques drast
 link: https://medium.com/caium/la-tentation-de-l%C3%A9co-autoritarisme-259fd9c703a
 picture: assets/images/ecoautoritarisme.jpg
 categories: blog
-publisher: CAIUM
+publisher: La REVUE du CAIUM
 ---
