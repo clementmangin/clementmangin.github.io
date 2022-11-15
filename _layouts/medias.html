@@ -34,6 +34,29 @@
         </div>
       </section>
 
+      <section id="two" class="major">
+        <div class="inner">
+          <header class="major">
+            <h2>Besoin d'une plume ou d'un intervenant?</h2>
+          </header>
+          <div class="content">
+            <p>Je suis disponible! Voici quelques exemples de sujets qui me passionnent:
+            <ul>
+              <li>Le vulgarisation scientifique</li>
+              <li>Les nouvelles technologies et leurs impacts</li>
+              <li>Le changement climatique, l'action climatique et ses freins</li>
+              <li>Le conspirationnisme et la désinformation</li>
+              <li>La place de la science et des médias en démocratie</li>
+            </ul>
+            </p>
+            <ul class="actions">
+              <li><a href="#contact" class="button scrolly" target="_blank">Contactez-moi</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
       <!-- One -->
       <section id="one" class="spotlights">
         {% assign sorted = site.medias | sort: 'date' | reverse  %}
@@ -58,7 +81,8 @@
         </section>
         {% endfor %}
       </section>
-    </div>
+
+      {{ content }}
 
     {% include footer.html %}
 
