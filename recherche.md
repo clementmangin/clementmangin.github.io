@@ -2,7 +2,7 @@
 title: Recherche
 layout: publications
 description: Post-vérité, polarisation et désinformation, et à l'intersection de l'épistémologie et de l'idéologie
-image: assets/images/pic07.jpg
+image: assets/images/research.jpg
 nav-menu: true
 ---
 
