@@ -21,8 +21,7 @@
 title: Clément Mangin
 tagline: Page personnelle de Clément Mangin. Science, philosophie, politique & informatique.
 email: clement@clementmangin.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Aspirant journaliste. Fan de science et de philosophie. Ex-développeur informatique.
+description: "Aspirant journaliste. Science, philosophie, politique, technologie, environnement.\nProgrammeur dans une autre vie."
 domain: www.clementmangin.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.clementmangin.com # the base hostname & protocol for your site, e.g. http://example.com
