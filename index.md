@@ -3,7 +3,7 @@ layout: home
 title: Accueil
 landing-title: 'Bonjour, ici Clément'
 description: null
-image: null
+image: assets/images/profil.jpg
 author: null
 show_tile: false
 seo:
