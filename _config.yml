@@ -31,7 +31,6 @@ plugins:
 
 # SEO config
 locale: fr_CA
-logo: /assets/images/profil.jpg
 twitter:
   username: clement_mangin
   card: summary
