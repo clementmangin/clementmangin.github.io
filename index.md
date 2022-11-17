@@ -6,6 +6,8 @@ description: null
 image: null
 author: null
 show_tile: false
+seo:
+  name: Page personne de Clément Mangin
 ---
 
 Animé par une curiosité intellectuelle insatiable, je m'intéresse aux enjeux sociaux et environnementaux contemporains au carrefour de la science, de la société et du politique. 
