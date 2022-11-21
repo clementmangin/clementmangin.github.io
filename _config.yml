@@ -20,7 +20,7 @@
 
 title: Clément Mangin
 tagline: Page personnelle de Clément Mangin. Science, philosophie, politique & informatique.
-email: clement@clementmangin.com
+email: Y2xlbWVudEBjbGVtZW50bWFuZ2luLmNvbQ==  # base64
 description: "Aspirant journaliste. Science, philosophie, politique, technologie, environnement.\nProgrammeur dans une autre vie."
 domain: www.clementmangin.com
 baseurl: "" # the subpath of your site, e.g. /blog

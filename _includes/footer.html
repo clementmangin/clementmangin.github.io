@@ -92,8 +92,9 @@
 			event.preventDefault();
 			const formData = Object.fromEntries(new FormData(document.querySelector('#formsubmit')));
 			const submit = $('#formsubmit').find(':submit');
+			const email = atob("{{ site.email }}");
 			$.ajax({
-				url: "https://formsubmit.co/ajax/{{ site.email }}",
+				url: `https://formsubmit.co/ajax/${email}`,
 				method: 'POST',
 				dataType: 'json',
 				accepts: 'application/json',
