@@ -2,7 +2,8 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form id="formsubmit" action="https://formsubmit.co/{{ site.email }}" method="POST">
+			<h3>Contact</h3>
+			<form id="formsubmit" action="" method="POST">
 				<input type="hidden" name="_subject" value="Contact">
 				<div class="field half first">
 					<label for="name">Nom</label>
@@ -23,39 +24,38 @@
 			</form>
 		</section>
 		<section class="split">
+		{% for key_value in site.socials %}
+			{% if key_value[1] %}
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Courriel</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+					<span class="icon alt fa-{{ key_value[0] | downcase }}"></span>
+					<h3>{{ key_value[0] }}</h3>
+					<a href="{{ key_value[1] }}">
+						{{ key_value[1] | replace: "https://", "" | replace: "www.", "" }}
+					</a>
 				</div>
 			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Téléphone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-				</div>
-			</section>
+			{% endif %}
+		{% endfor %}
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
 					<h3>Addresse</h3>
 					<span>
 					{% if site.street_address %}
-					    {{ site.street_address }}<br />
+							{{ site.street_address }}<br />
 					{% endif %}
 					{% if site.city %}
-					    {{ site.city }},
+							{{ site.city }},
 					{% endif %}
 					{% if site.state %}
-					    {{ site.state }} 
+							{{ site.state }} 
 					{% endif %}
 					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
+							{{ site.zip_code }}<br />
 					{% endif %}
 					{% if site.country %}
-					    {{ site.country }}
+							{{ site.country }}
 					{% endif %}
 					</span>
 				</div>
@@ -67,17 +67,6 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
-			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
