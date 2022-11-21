@@ -23,7 +23,6 @@ nav-menu: true
 		<p>CV complet à venir! En attendant:</p>
 		<ul class="actions">
 				<li><a href="{{ site.socials.LinkedIn }}" class="button next" target="_blank">LinkedIn</a></li>
-				<li><a href="{{ site.socials.GitHub }}" class="button next" target="_blank">GitHub</a></li>
 		</ul>
 </div>
 
