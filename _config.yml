@@ -29,6 +29,8 @@ url: https://www.clementmangin.com # the base hostname & protocol for your site,
 plugins:
   - jekyll-seo-tag
 
+google_analytics: G-SB650BW93C
+
 # SEO config
 locale: fr_CA
 twitter:
