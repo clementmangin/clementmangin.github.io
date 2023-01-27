@@ -57,8 +57,10 @@ nav-menu: true
 					<h2>Parcours académique</h2>
 				</header>
 				<dl>
+					<dt>D.E.S.S. en journalisme</dt>
+					<dd>Université de Montréal (2023 – en cours)</dd>
 					<dt>Maitrise en sciences de l'environnement</dt>
-					<dd>Université du Québec à Montréal (2019 – 2022)</dd>
+					<dd>Université du Québec à Montréal (2019 – 2023)</dd>
 					<dt>Baccalauréat en science politique et philosophie (non terminé, 63 crédits / 90)</dt>
 					<dd>Université de Montréal (2016 – 2019)</dd>
 					<dt>Ingénieur Télécommunications</dt>
