@@ -18,7 +18,11 @@
       <section id="banner" class="style2">
         <div class="inner">
             <span class="image">
+              <picture>
+                {% assign webp = page.image | split: "." | first | append: '.webp' %}
+                <source srcset="{{ site.baseurl }}/{{ webp }}" type="image/webp">
                 <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+              </picture>
             </span>
             <header class="major">
 
@@ -63,7 +67,11 @@
         {% for media in sorted %}
         <section>
           <a href="{{ media.link }}" class="image">
-            <img src="{{ media.picture }}" alt="" data-position="center center" />
+            <picture>
+              {% assign webp = media.picture | split: "." | first | append: '.webp' %}
+              <source srcset="{% link {{ webp }} %}" type="image/webp">
+              <img src="{% link {{ media.picture }} %}" alt="" data-position="center center" />
+            </picture>
           </a>
           <div class="content">
             <div class="inner">

@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-timeago", "~> 0.15"
   gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-webp", "~> 1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

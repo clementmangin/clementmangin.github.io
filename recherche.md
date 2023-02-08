@@ -13,7 +13,10 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="https://doi.org/10.4000/ere.8307" class="image">
-			<img src="{% link assets/images/ere.jpg %}" alt="" data-position="center center" />
+			<picture>
+				<source srcset="{% link assets/images/ere.webp %}" type="image/webp">
+				<img src="{% link assets/images/ere.jpg %}" alt="" data-position="center center" />
+			</picture>
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -43,7 +46,10 @@ nav-menu: true
 			</div>
 		</div>
 		<a href="https://doi.org/10.4000/ere.8307" class="image">
-			<img src="{% link assets/images/uqam.png %}" alt="" data-position="center center" />
+			<picture>
+				<source srcset="{% link assets/images/uqam.webp %}" type="image/webp">
+				<img src="{% link assets/images/uqam.png %}" alt="" data-position="center center" />
+			</picture>
 		</a>
 	</section>
 </section>

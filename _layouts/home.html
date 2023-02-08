@@ -37,7 +37,11 @@
         <section id="two" class="spotlights">
             <section>
                 <a href="#" class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="" data-position="center center" />
+                    <picture>
+                      {% assign webp = page.image | split: "." | first | append: '.webp' %}
+                      <source srcset="{% link {{ webp }} %}" type="image/webp">
+                      <img src="{% link {{ page.image }} %}" alt="" data-position="center center" />
+                    </picture>  
                 </a>
                 <div class="content">
                     <div class="inner">
