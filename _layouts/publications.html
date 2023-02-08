@@ -15,7 +15,11 @@
         <section id="banner" class="style2">
             <div class="inner">
                 <span class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                    <picture>
+                        {% assign webp = page.image | split: "." | first | append: '.webp' %}
+                        <source srcset="{% link {{ webp }} %}" type="image/webp">
+                        <img src="{% link {{ page.image }} %}" alt="">
+                    </picture>
                 </span>
                 <header class="major">
 
