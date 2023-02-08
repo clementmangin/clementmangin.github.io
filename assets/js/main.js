@@ -6,6 +6,25 @@
 
 (function($) {
 
+	function getExtension(filename) {
+		return filename.split('.').pop();
+	}
+
+	function getMimeTypeFromExtenstion(extension) {
+		const mimtypes = {
+			"png": "image/png",
+			"jpeg": "image/jpeg",
+			"jpeg": "image/jpeg",
+			"gif": "image/gif",
+			"webp": "image/webp",
+		}
+		return mimtypes[extension] | "image/jpeg";
+	}
+
+	function getMimeTypeFromPath(filename) {
+		return getMimeTypeFromExtenstion(getExtension(filename));
+	}
+
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
@@ -141,13 +160,14 @@
 
 				var $this = $(this),
 					$image = $this.find('.image'), $img = $image.find('img'),
+					$webp = $image.find('source[type="image/webp"]'),
 					$link = $this.find('.link'),
 					x;
 
 				// Image.
 
 					// Set image.
-						$this.css('background-image', 'url(' + $img.attr('src') + ')');
+						$this.css('background-image', 'image-set(url(' + $img.attr('src') + ') type("' + getMimeTypeFromPath($img.attr('src')) + '"), url(' + $webp.attr('srcset') + ') type("image/webp"))');
 
 					// Set position.
 						if (x = $img.data('position'))
@@ -228,7 +248,8 @@
 			$banner.each(function() {
 
 				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img');
+					$image = $this.find('.image'), $img = $image.find('img'),
+					$webp = $image.find('source[type="image/webp"]');
 
 				// Parallax.
 					$this._parallax(0.275);
@@ -237,7 +258,7 @@
 					if ($image.length > 0) {
 
 						// Set image.
-							$this.css('background-image', 'url(' + $img.attr('src') + ')');
+							$this.css('background-image', 'image-set(url(' + $img.attr('src') + ') type("' + getMimeTypeFromPath($img.attr('src')) + '"), url(' + $webp.attr('srcset') + ') type("image/webp"))');
 
 						// Hide original.
 							$image.hide();
