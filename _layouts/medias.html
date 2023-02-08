@@ -20,8 +20,8 @@
             <span class="image">
               <picture>
                 {% assign webp = page.image | split: "." | first | append: '.webp' %}
-                <source srcset="{{ site.baseurl }}/{{ webp }}" type="image/webp">
-                <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                <source srcset="{% link {{ webp }} %}" type="image/webp">
+                <img height="640" width="640" src="{% link {{ page.image }} %}" alt="">
               </picture>
             </span>
             <header class="major">
@@ -70,7 +70,7 @@
             <picture>
               {% assign webp = media.picture | split: "." | first | append: '.webp' %}
               <source srcset="{% link {{ webp }} %}" type="image/webp">
-              <img src="{% link {{ media.picture }} %}" alt="" data-position="center center" />
+              <img height="640" width="640" src="{% link {{ media.picture }} %}" alt="" data-position="center center" />
             </picture>
           </a>
           <div class="content">

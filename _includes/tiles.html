@@ -10,7 +10,7 @@
       <picture>
         {% assign webp = tile.image | split: "." | first | append: '.webp' %}
         <source srcset="{% link {{ webp }} %}" type="image/webp">
-        <img src="{% link {{ tile.image }} %}" alt="{{ tile.title }}" />
+        <img height="640" width="640" src="{% link {{ tile.image }} %}" alt="{{ tile.title }}" />
       </picture>  
     </span>
     <header class="major">

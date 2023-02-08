@@ -28,7 +28,7 @@
       <picture>
         {% assign webp = post.image | split: "." | first | append: '.webp' %}
         <source srcset="{% link {{ webp }} %}" type="image/webp">
-        <img src="{% link {{ post.image }} %}" alt="" />
+        <img height="640" width="640" src="{% link {{ post.image }} %}" alt="" />
       </picture>
     </span>{% endif %}
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
