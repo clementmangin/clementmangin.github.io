@@ -1,5 +1,5 @@
 ---
-title: Recherche
+title: Recherche & éducation
 layout: publications
 description: Sciences politiques, cognitives et sociales au service de la compréhension de la post-vérité
 image: assets/images/research.jpg
@@ -42,7 +42,10 @@ nav-menu: true
 					<h3>L’individualisme dans le discours climatosceptique : contribution théorique à la compréhension du déni des sciences qui dérangent à l’ère de la post-vérité</h3>
 				</header>
 				<p>Le récit selon lequel le changement climatique d’origine anthropique est une menace sérieuse pour la vie sur Terre, exigeant une action climatique urgente et globale, est contesté par un contre-récit qui prétend qu'il ne s'agit que d'un canular forgé par une élite mondialiste pour avancer ses politiques autoritaires. Ce contre-récit, inscrit dans le relativisme épistémique de l'ère de la post-vérité, a été redéployé contre la pandémie de COVID-19 et ses mesures de santé publique, et semble alimenté par un raisonnement idéologique ancré dans la défense libertarienne des libertés individuelles. Alors que la littérature explore la vérification des faits et le cadrage des messages pour adapter la communication scientifique à une cible libertarienne, cet article soutient que cela risque de s'avérer insuffisant. En s'appuyant sur les travaux de Bunge, il est montré que le libertarisme en tant qu'idéologie peut être interprété comme l'expression politique de l'individualisme en tant que vision du monde, dont les dimensions ontologiques, épistémologiques, axiologiques et éthiques la rendent mal équipée pour appréhender des problèmes pervers tels que le changement climatique et la pandémie de COVID-19, mieux appréhendés par une vision du monde systémique. Après avoir illustré comment l'individualisme sous-tend le discours de Mel Goyer, négationniste de la COVID-19 devenue négationniste du climat, il est soutenu que le déni du climat en particulier, et le déni des sciences qui dérangent en général, devraient ouvrir un débat public sur les visions du monde conflictuelles et leurs croyances fondamentales.</p>
-				<p>Mangin, C. (2022). L’individualisme dans le discours climatosceptique : contribution théorique à la compréhension du déni des sciences qui dérangent à l’ère de la post-vérité. [Mémoire, Université du Québec à Montréal] [en évaluation]</p>
+				<p>Mangin, C. (2023). L’individualisme dans le discours climatosceptique : contribution théorique à la compréhension du déni des sciences qui dérangent à l’ère de la post-vérité. [Mémoire, Université du Québec à Montréal]</p>
+				<ul class="actions">
+					<li><a href="{% link assets/docs/memoire.pdf %}" class="button next" target="_blank">Lire</a></li>
+				</ul>
 			</div>
 		</div>
 		<a href="https://doi.org/10.4000/ere.8307" class="image">
