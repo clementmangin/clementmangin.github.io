@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code
-description: Une histoire de l'homme contre la machine
+description: Développement <i>full stack</i>
 image: assets/images/pic09.jpg
 nav-menu: true
 ---
@@ -17,10 +17,10 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<p>Mes premières amours académiques et professionnelles furent informatiques. Titulaire d'un diplôme d'ingénieur en télécommunications de l'Institut National Polytechnique de Grenoble décroché en 2006, j'ai connu une première carrière de consultant Java à Paris, France, avant de migrer vers Montréal, Québec et y avoir été développeur <em>full stack</em> dans les domaines de l'événementiel, de la maison connectée et du jeu vidéo.</p>
+<p>Mes premières amours académiques et professionnelles furent informatiques. Titulaire d'un diplôme d'ingénieur en télécommunications de l'Institut National Polytechnique de Grenoble décroché en 2006, j'ai connu une première carrière de consultant Java à Paris, France, avant de migrer vers Montréal, Québec et y avoir été développeur <i>full stack</i> dans les domaines de l'événementiel, de la maison connectée et du jeu vidéo.</p>
 
 <div class="content">
-		<p>CV complet à venir! En attendant:</p>
+		<p>CV complet à venir!</p>
 		<ul class="actions">
 				<li><a href="{{ site.socials.LinkedIn }}" class="button next" target="_blank">LinkedIn</a></li>
 		</ul>

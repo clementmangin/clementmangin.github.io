@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Clément Mangin
-tagline: Page personnelle de Clément Mangin. Science, philosophie, politique & informatique.
+tagline: Clément Mangin. Science & philosophie, environnement & politique, informatique.
 email: Y2xlbWVudEBjbGVtZW50bWFuZ2luLmNvbQ==  # base64
-description: "Aspirant journaliste. Science, philosophie, politique, technologie, environnement.\nProgrammeur dans une autre vie."
+description: "Professionnel de recherche et développeur <i>full stack</i>. Science & philosophie, environnement & politique, informatique."
 domain: www.clementmangin.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.clementmangin.com # the base hostname & protocol for your site, e.g. http://example.com
@@ -68,7 +68,7 @@ phone: +1 (514) 649-7459
 
 socials:
   LinkedIn: https://www.linkedin.com/in/clementmangin
-  Twitter: https://twitter.com/clement_mangin
+  Twitter: 
   Facebook: https://www.facebook.com/clementmangin
   GitHub:
   GitLab:
