@@ -22,7 +22,8 @@ nav-menu: true
 <div class="content">
 		<p>CV complet à venir!</p>
 		<ul class="actions">
-				<li><a href="{{ site.socials.LinkedIn }}" class="button next" target="_blank">LinkedIn</a></li>
+			<li><a href="{% link assets/docs/resume_cv.pdf %}" class="button next" target="_blank">Curriculum Vitae</a></li>
+			<li><a href="{{ site.socials.LinkedIn }}" class="button next" target="_blank">LinkedIn</a></li>
 		</ul>
 </div>
 
