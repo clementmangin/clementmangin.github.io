@@ -16,8 +16,11 @@ nav-menu: true
 			<h1>Code</h1>
 		</header>
 
-<!-- Content -->
-<p>Mes premières amours académiques et professionnelles furent informatiques. Titulaire d'un diplôme d'ingénieur en télécommunications de l'Institut National Polytechnique de Grenoble décroché en 2006, j'ai connu une première carrière de consultant Java à Paris, France, avant de migrer vers Montréal, Québec et y avoir été développeur <i>full stack</i> dans les domaines de l'événementiel, de la maison connectée et du jeu vidéo.</p>
+<p>Mes premières amours académiques et professionnelles sont informatiques. Titulaire d'un diplôme d'ingénieur en télécommunications de l'Institut National Polytechnique de Grenoble décroché en 2006, j'ai connu une première carrière de consultant Java à Paris, France, avant de migrer vers Montréal, Québec et y devenir développeur <i>full stack</i> dans les domaines de l'événementiel, de la maison connectée et du jeu vidéo.</p>
+
+<p>Mon profil est particulièrement généraliste et tout-terrain, mes compétences allant de l'analyse à l'opération en passant par l'architecture, le développement et le déploiement, dans un contexte agile.</p>
+
+<p>Python et Django constituent mon langage et ma plateforme de prédilection. J'ai également un faible pour le langage Swift et les services AWS.</p>
 
 <div class="content">
 	<ul class="actions">
@@ -30,7 +33,7 @@ nav-menu: true
 
 <!-- Experience -->
 
-</div>
+	</div>
 </section>
 
 </div>
