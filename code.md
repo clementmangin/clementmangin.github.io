@@ -2,7 +2,7 @@
 layout: page
 title: Code
 description: Développement <i>full stack</i>
-image: assets/images/pic09.jpg
+image: assets/images/pic12.jpg
 nav-menu: true
 ---
 
