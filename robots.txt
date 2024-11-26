@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 
+User-agent: CCBot
+Disallow: /
+
 # Don't add any content to the GPT model
 User-agent: GPTBot
 Disallow: /
