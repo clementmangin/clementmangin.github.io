@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Accueil
-landing-title: 'Bonjour, ici Clément'
+landing-title: 'Bonjour/Hi'
 description: null
 image: assets/images/profil.jpg
 author: null
@@ -14,4 +14,4 @@ Je m'intéresse aux enjeux sociaux et environnementaux contemporains au carrefou
 
 Je suis également ingénieur en informatique de carrière, avec un profil de développeur <i>full stack</i> tout-terrain principalement intéressé par Python.
 
-Mes compétences sont présentement au service d'un projet d'atténuation des changements climatiques mené par l'<a href="https://ieds.ulaval.ca/httpsiedsulavalcaindexphpid210/axes-de-developpement/odd/urbi-ges/" target="_blank" title="Site du projet Urbi-GES de l'Université Laval">Université Laval</a>, et de la <a href="https://chaireunesco-prev.ca/" target="_blank" title="Site web de la chaire UNESCO-PREV">chaire UNESCO-PREV</a> en prévention de la radicalisation et de l'extrémisme violent.
+Mes compétences sont présentement au service d'un projet d'atténuation des changements climatiques mené par l'<a href="https://ieds.ulaval.ca/httpsiedsulavalcaindexphpid210/axes-de-developpement/odd/urbi-ges/" target="_blank" title="Site du projet Urbi-GES de l'Université Laval">Université Laval</a> avec le soutien d'Environnement et Changement climatique Canada.
